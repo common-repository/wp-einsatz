@@ -1,0 +1,37 @@
+th {
+	font-weight: normal;
+	font-style: normal;
+}
+
+.einsatzliste {
+	font:		Icon;
+	border:		1px Solid ThreeDShadow;
+	background:	Window;
+	color:		WindowText;
+	border-collapse: collapse;	
+}
+
+/* header row*/
+.einsatzliste th {
+	padding:	2px 5px;
+ 	border:		1px solid;
+	border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+	cursor:		default;
+	background: #C2C2C2;
+	color: #fff;
+}
+
+/* normal row*/
+.einsatzliste td {
+	padding:	3px;
+}
+
+/* alt row*/
+.einsatzliste tr.alt { 
+ 	background-color: #efefef;
+}
+
+a.einsatzbericht {
+	font-weight:bold;
+	color:black;
+}
